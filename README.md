@@ -38,47 +38,47 @@ This lab simulates a realistic enterprise Active Directory environment and demon
 ## Step-by-Step Screenshots
 
 ### 1. Server Installed
-![Server Installed](01-server-install.png)
+![Server Installed](screenshots/01-server-install.png)
 Installed Windows Server 2022 as the foundation for the lab.
 
 ### 2. Active Directory Role Installed
-![AD DS Installed](02-add-ad-role.png)
+![AD DS Installed](screenshots/02-add-ad-role.png)
 Added Active Directory Domain Services (AD DS) role to the server.
 
 ### 3. Domain Created
-![Domain Created](03-domain-created.png)
+![Domain Created](screenshots/03-domain-created.png)
 Promoted the server to a Domain Controller and created the 'corp.local' domain.
 
 ### 4. Domain Admin Login
-![Domain Admin Login](04-domain-admin-login.png)
+![Domain Admin Login](screenshots/04-domain-admin-login.png)
 Logged in as the domain administrator to verify the domain creation was successful.
 
 ### 5. Organizational Units Created
-![OUs Created](05-ous-created.png)
+![OUs Created](screenshots/05-ous-created.png)
 Created organizational units (OUs) to organize users and computers for easier management.
 
 ### 6. Users Created
-![Users Created](06-users-created.png)
+![Users Created](screenshots/06-users-created.png)
 Created test users within the OUs to simulate real-world accounts.
 
 ### 7. Group Membership Configured
-![Group Membership](07-group-membership.png)
+![Group Membership](screenshots/07-group-membership.png)
 Assigned users to appropriate groups, demonstrating access control management.
 
 ### 8. Password Policy Set
-![Password Policy](08-password-policy.png)
+![Password Policy](screenshots/08-password-policy.png)
 Configured password policies to enforce security best practices.
 
 ### 9. Audit Enabled
-![Audit Enabled](09-audit-enabled.png)
+![Audit Enabled](screenshots/09-audit-enabled.png)
 Enabled auditing policies to monitor logon events, account management, and policy enforcement.
 
 ### 10. Failed Login Attempt
-![Failed Login](10-failed-login.png)
+![Failed Login](screenshots/10-failed-login.png)
 Simulated a failed login to generate audit events for security monitoring.
 
 ### 11. Successful Login
-![Successful Login](11-successful-login.png)
+![Successful Login](screenshots/11-successful-login.png)
 Verified successful login for a test user and captured the corresponding security event.
 
 ---
